@@ -19,6 +19,10 @@ Front end for pos app using Vue JS. this is a frontend project for a point of sa
 ## Clone
 git clone https://github.com/ridoNev1/Frond-End-Point-of-sales.git
 
+## administrator account
+email: ridogamaulana@gmail.com
+password: ridoganteng
+
 ## Project setup
 ```
 yarn install
