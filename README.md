@@ -2,10 +2,10 @@
 Front end for pos app using Vue JS. this is a frontend project for a point of sales application. Sales application that can be used for food products from a restaurant or cafe
 
 ## Features
-1. User acsess
+1. User access
 2. Email verification
-3. Search
-4. Sort
+3. Search data
+4. Sort data
 5. Pagination
 6. POS aplication
 7. Recent Order
