@@ -93,7 +93,8 @@ const actions = {
   insertFoodData (context, payload) {
     context.commit('SET_INSERT_LOADING', true)
     return new Promise((resolve, reject) => {
-      axios.post(`${url}/pos/insert`, payload).then(() => {
+      axios.post(`${url}/pos/insert`, payload).then((result) => {
+        alert(result.data.message)
         window.location = '/'
       }).catch(err => {
         reject(err)

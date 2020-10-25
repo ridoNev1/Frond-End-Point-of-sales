@@ -43,6 +43,9 @@ export default {
         if (result === "Cannot read property 'password' of undefined") {
           alert('Login Failed')
           localStorage.removeItem('token')
+        } else if (result === 'Wrong Password') {
+          alert(result)
+          localStorage.removeItem('token')
         } else {
           window.location = '/'
         }
