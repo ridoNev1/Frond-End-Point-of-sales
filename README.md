@@ -23,6 +23,8 @@ git clone https://github.com/ridoNev1/Frond-End-Point-of-sales.git
 email: ridogamaulana@gmail.com
 password: ridoganteng
 
+## demo: https://bityl.co/48Hd
+
 ## Project setup
 ```
 yarn install
